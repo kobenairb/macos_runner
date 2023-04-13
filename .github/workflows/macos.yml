@@ -17,4 +17,5 @@ jobs:
           gcc-12 -v
           cmake --version
           git -v
+          brew install pcre
 
