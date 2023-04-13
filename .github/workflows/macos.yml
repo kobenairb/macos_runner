@@ -12,6 +12,8 @@ jobs:
       - name: some checks
         run: |
           env
-          which python3
-          which gcc
-          which cmake
+          alias
+          python3 --version
+          gcc -v
+          cmake --version
+          alias
